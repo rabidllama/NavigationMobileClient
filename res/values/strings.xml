@@ -2,7 +2,25 @@
 <resources>
 
     <string name="app_name">Navigation Mobile Client</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    
+	<string name="main_continue_label">Continue navigation</string>
+    <string name="main_continue_button_text">Continue</string>
+    <string name="main_new_label">New navigation</string>
+    <string name="main_new_button_text">New&#8230;</string>
+    <string name="main_find_label">Find a nearby&#8230;</string>
+    <string name="main_find_button_text">Find&#8230;</string>
+    <string name="main_preferences_label">Change preferences</string>
+    <string name="main_preferences_button_text">Prefs&#8230;</string>
 
+    <string name="routesettings_title">Plan new navigation</string>
+    <string name="routesettings_start_label">Start:</string>
+    <string name="routesettings_start_button_text">Select</string>
+    <string name="routesettings_end_label">End:</string>
+    <string name="routesettings_end_button_text">Select</string>
+    <string name="routesettings_currentlocation_text">Use my current location</string>
+    <string name="routesettings_begin_button_text">Take me there!</string>
+    
+    <string name="persona_title">Select a Persona</string>
+    <string name="persona_select_button_text">Select this persona</string>
+    <string name="persona_select_list_default">Choose a persona</string>
 </resources>

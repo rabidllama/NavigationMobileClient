@@ -22,6 +22,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity 
+            android:name=".RouteSettingsActivity"
+            android:label="@string/routesettings_title"></activity>
+        <activity android:name=".PersonaActivity" android:label="@string/persona_title" />
     </application>
 
 </manifest>

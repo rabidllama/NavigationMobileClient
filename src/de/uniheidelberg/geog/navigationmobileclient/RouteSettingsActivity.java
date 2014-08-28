@@ -2,10 +2,11 @@ package de.uniheidelberg.geog.navigationmobileclient;
 
 import android.support.v4.app.Fragment;
 
-public class NavigationClientActivity extends SingleFragmentActivity {
+public class RouteSettingsActivity extends SingleFragmentActivity {
 
 	@Override
 	protected Fragment createFragment() {
-		return new MainPageFragment();
+		return new RouteSettingsFragment();
 	}
+
 }
