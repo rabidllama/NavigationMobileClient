@@ -15,7 +15,120 @@
         android:src="@drawable/myaccessibleeu_logo_text"
         android:contentDescription="@string/app_name" />
     
-    <RelativeLayout 
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        
+        <LinearLayout 
+            android:baselineAligned="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+            <de.uniheidelberg.geog.navigationmobileclient.SquareLayout
+       			android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+       			android:layout_weight="1">
+       			
+                <Button android:id="@+id/main_continue_button"
+           			android:layout_width="wrap_content"
+           			android:layout_height="match_parent"
+           			android:background="@drawable/return_button" />
+                
+            </de.uniheidelberg.geog.navigationmobileclient.SquareLayout>
+            
+             <de.uniheidelberg.geog.navigationmobileclient.SquareLayout
+       			android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+       			android:layout_weight="1">
+       			
+                <Button android:id="@+id/main_route_button"
+           			android:layout_width="wrap_content"
+           			android:layout_height="match_parent"
+           			android:background="@drawable/route_button" />
+                
+            </de.uniheidelberg.geog.navigationmobileclient.SquareLayout>
+            
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:baselineAligned="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+            <de.uniheidelberg.geog.navigationmobileclient.SquareLayout
+       			android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+       			android:layout_weight="1">
+       			
+                <Button android:id="@+id/main_poi_button"
+           			android:layout_width="wrap_content"
+           			android:layout_height="match_parent"
+           			android:background="@drawable/poi_button" />
+                
+            </de.uniheidelberg.geog.navigationmobileclient.SquareLayout>
+            
+             <de.uniheidelberg.geog.navigationmobileclient.SquareLayout
+       			android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+       			android:layout_weight="1">
+       			
+                <Button android:id="@+id/main_settings_button"
+           			android:layout_width="wrap_content"
+           			android:layout_height="match_parent"
+           			android:background="@drawable/settings_button" />
+                
+            </de.uniheidelberg.geog.navigationmobileclient.SquareLayout>
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+     
+   <!--<de.uniheidelberg.geog.navigationmobileclient.SquareLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+		<LinearLayout 
+		    android:layout_width="match_parent" 
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1">
+		    <Button
+           		android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+           		android:layout_weight="1"
+           		android:background="@drawable/poi_button" />
+       		<Button
+           		android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+           		android:layout_weight="1"
+           		android:background="@drawable/poi_button" />		    
+		</LinearLayout>
+		<LinearLayout 
+		    android:layout_width="match_parent" 
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1">
+		    <Button
+           		android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+           		android:layout_weight="1"
+           		android:background="@drawable/poi_button" />
+       		<Button
+           		android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+           		android:layout_weight="1"
+           		android:background="@drawable/poi_button" />		    
+		</LinearLayout>
+       </LinearLayout>
+   </de.uniheidelberg.geog.navigationmobileclient.SquareLayout>
+    -->
+    
+    <!--<RelativeLayout 
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         
@@ -104,6 +217,8 @@
         </RelativeLayout>
     </LinearLayout>
 
+    
+    
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -127,4 +242,6 @@
 
     </RelativeLayout>
 	</RelativeLayout>
+	-->
+    
 </LinearLayout>

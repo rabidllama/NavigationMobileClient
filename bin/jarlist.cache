@@ -1,5 +1,5 @@
 # cache for current jar dependency. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1407485111434 648327 ded9acc6a9792b8f1afc470f0c9cd36d178914cd D:\Git\appcompat_v7\libs\android-support-v4.jar
-1408460300433 648327 ded9acc6a9792b8f1afc470f0c9cd36d178914cd D:\Git\NavigationMobileClient\libs\android-support-v4.jar
+1407485111434 648327 ded9acc6a9792b8f1afc470f0c9cd36d178914cd D:\NavigationService-MobileClient\appcompat_v7\libs\android-support-v4.jar
+1410165955318 648327 ded9acc6a9792b8f1afc470f0c9cd36d178914cd D:\NavigationService-MobileClient\NavigationMobileClient\libs\android-support-v4.jar
